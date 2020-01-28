@@ -9,11 +9,11 @@ Object Rational is auto shortening after every operation.
 ## Example
 
 ```cpp
-#include "Rational.h"
+#include "Rational.hpp"
 
 int main()
 {
-	Rational r1, r2, result;
+	guzlewski::Rational r1, r2, result;
 
 	std::cin >> r1 >> r2;
 	result = r1 + r2;
